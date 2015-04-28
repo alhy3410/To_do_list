@@ -1,5 +1,5 @@
 class Task
-  define_method(:initialze) do |description|
+  define_method(:initialize) do |description|
     @description = description
   end
 
